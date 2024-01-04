@@ -1,0 +1,82 @@
+header{
+  background-color:#01204e;
+  position: fixed;
+  top:0;
+  right:0;
+  left:0;
+
+}
+
+.main{
+  display: flex;
+  flex-direction: row;
+  height:100px;
+  justify-content: space-between;
+  align-items: center;
+  column-gap: 50px;
+}
+.main-1{
+  display:flex;
+  align-items: center;
+  width:240px;
+  padding-left:60px;
+}
+.main-2{
+  display:flex;
+  align-items: center;
+  flex:1;
+  width:0;
+  padding-left:160px;
+  padding-top:40px;
+}
+.main-3{
+  display:flex;
+  align-items: center;
+  justify-content:space-evenly;
+  flex-shrink: 0;  
+  flex:1;
+}
+.logo{
+  width:150px;
+}
+.but-nav{
+  padding-top:10px;
+  padding-bottom:10px;
+  padding-right:20px;
+  padding-left:20px;
+  background-color:#f85525;
+  border-color:transparent;
+  border-radius:12px;
+  font-size:14px;
+  font-weight: bold;
+  font-family:Roboto,helvetica;
+  transition: 0.15s;
+  color:#01204e;
+  letter-spacing: 2px;
+  margin-top:40px;
+  font-family:roboto;
+}
+.but-nav:hover{
+  background-color: white;
+  color:black;
+  cursor:pointer;
+  box-shadow:inset 1px 1px 1px black;
+  
+}
+.but-nav:active{
+  background-color: transparent;
+  color:white;
+  border-color:transparent;
+}
+.name{
+  color:white;
+  font-size:20px;
+  font-family:roboto,Helvetica;
+  letter-spacing: 2px;
+  color:#f85525;
+  transition: 0.15s;
+}
+.name:hover{
+  color:white;
+  cursor:help;
+}

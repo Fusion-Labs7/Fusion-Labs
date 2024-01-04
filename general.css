@@ -1,0 +1,14 @@
+p{
+  margin-top:0;
+  margin-right:0;
+  margin-left:0;
+  margin-bottom:0;
+  font-family:Roboto,arial,helvetica;
+  color:white;
+}
+body{
+  background-color:#01204e;
+  align-content: center;
+  padding-bottom:3000px;
+  padding-top:70px;
+}
